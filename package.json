@@ -11,6 +11,8 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "lodash": "^4.17.15",
+    "moment-timezone": "^0.5.26",
+    "node-cron": "^2.0.3",
     "nodemailer": "^6.3.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7"
