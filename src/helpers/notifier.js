@@ -15,3 +15,12 @@ exports.sendEmailSearchAlert = async (to, products) => {
         text: exports.decorateProducts(products).join("\n")
     });
 };
+
+exports.sendTestEmail = async (to) => {
+    await Emailer.sendEmail({
+        from: Env.EMAIL,
+        to,
+        subject: "Sustainable Office Furniture - Subscribe system",
+        text: "System started - This is a test subscription email"
+    });
+};
