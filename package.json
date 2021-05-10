@@ -11,7 +11,7 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "cheerio": "^1.0.0-rc.3",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment-timezone": "^0.5.26",
     "node-cron": "^2.0.3",
     "nodemailer": "^6.3.0",
